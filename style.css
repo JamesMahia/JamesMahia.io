@@ -1,0 +1,63 @@
+body{
+    margin:0px;
+}
+
+main{
+    margin:20px;
+}
+h1 {
+    text-align: center;
+}
+
+.navBar ul{
+    /*
+    . = class, ul means list. We're saving in the navBar class, go through the unordered list
+    */
+    list-style-type: none;
+    /*
+    the styling of the list is remove anything attached 
+    */
+
+    background-color:rgb(74, 74, 74);
+    padding: 0px;
+    margin: 0px;
+
+    overflow:hidden;
+    /*
+    See the list, even if it's horizontal 
+    */
+
+}
+
+.navBar a{
+    /* 
+    In the navBar class, set all elements. Like "for a" in python loops
+    */
+
+    color:white;
+    text-decoration: none;
+    /*
+    removes underline
+    */
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navBar a:hover{
+    /*
+    same as before but the : means a psuedo class, loop though all elements as long as the mouse is hovering
+    */
+    background-color: hsl(0,0%,10%);
+}
+
+.navBar li{
+    /* 
+    in our navigation bar, take our list items
+    */
+    float: left;
+    /*
+    take our elements and put them to the left
+    */
+
+}
